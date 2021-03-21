@@ -1,0 +1,12 @@
+
+instalar dependencias
+
+criar variável de ambiente do projeto
+echo AIRFLOW_HOME='{}/airflow' >>.env (no root do projeto)
+
+
+criar diretorio dags no root
+
+inicializar airflow
+airflow initdb
+airflow webserver -p {porta} padrão 8080
